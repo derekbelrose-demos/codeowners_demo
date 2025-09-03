@@ -1,3 +1,1 @@
-.github/workflows/**/*: @derekbelrose-demos/opsTeam
-source/**/*: @derekbelrose-demos/devTeam
-/README.md: @derekbelrose
+/.github/: @derekbelrose-demos/opsteam
