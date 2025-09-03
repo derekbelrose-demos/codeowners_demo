@@ -24,6 +24,8 @@ body:
     attributes:
       label: Branch
       description: The branch that will be used for deployment (environment dependent)
+    validations:
+      required: true
   - type: input
     id: terraform_module_path
     attributes:
