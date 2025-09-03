@@ -10,3 +10,6 @@ This repository demonstrates how a CODEOWNERS file can be used to prevent users 
 
 ## Why?
 In an Enterprise organization, a central DevX team, security team, ops team or whomever may need to limit who can change workflow files. They can implement this pattern on the files under `.github` and require that the team be required to review changes to any of the files under that directory.
+
+## Additional Resources
+* [GitHub CodeOwners documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
