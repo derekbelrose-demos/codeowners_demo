@@ -29,4 +29,5 @@ body:
     attributes:
       label: Terraform module path
       description: The path of the module in your repository
-      value: "."
+    validations:
+      required: true
