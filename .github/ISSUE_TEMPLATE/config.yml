@@ -1,4 +1,6 @@
 blank_issues_enabled: false
 contact_links:
   - name: Developer Experience Support
-    url: mailto://company.tld/devx-support
+    url: mailto://devx@company.tld
+  - name: Developer Experience Portal
+    url: https://devx.company.tld
