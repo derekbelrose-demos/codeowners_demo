@@ -1,0 +1,32 @@
+name: Generic Terraform Deployment
+description: A stand alone Terraform deployment demo
+title: "[Terraform Deploy]: "
+labels: ["terraform", "deploy"]
+body:
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Development (Dev)
+        - User Acceptance Testing (UAT)
+        - Production (PROD)
+        - Other (Fill in other environment below)
+      default: 0
+  - type: input
+    id: other_environment
+    attributes:
+      label: Other Environment
+    validations:
+      required: false
+  - type: input
+    id: branch
+    attributes:
+      label: Branch
+      description: The branch that will be used for deployment (environment dependent)
+  - type: input
+    id: terraform_module_path
+    attributes:
+      label: Terraform module path
+      description: The path of the module in your repository
+    value: "."
