@@ -1,6 +1,5 @@
 # If multiple lines match, then the last in match in the file is applied.
 *               @derekbelrose
-/.github/       @derekbelrose-demos/opsteam
 /source/        @derekbelrose-demos/devteam
 # everything else is not protected, so any user can create a PR and 
 # it be merged without CODEOWNER approval
